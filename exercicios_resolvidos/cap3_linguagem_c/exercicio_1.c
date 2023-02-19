@@ -1,8 +1,13 @@
-#include <stido.h>
+#include <stdio.h>
 
 int main(){
+	
+	int num;
 
-	printf("Commit inicial\n");
+	scanf("%d", &num);
+
+	printf("Ancetessor: %d\nSucessor: %d\n", num - 1, num + 1);
+	
 
 	return 0;
 }

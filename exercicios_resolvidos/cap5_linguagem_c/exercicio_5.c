@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int i,  soma = 0, contador = 1;
+    int i, soma, contador;
 
-    i = 0;
-    while(contador <= 50){
+    i = soma = contador = 0;
+
+    while(contador < 50){
         if(i % 2 == 0){
             soma += i;
             contador++;

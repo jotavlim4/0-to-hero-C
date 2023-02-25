@@ -11,6 +11,7 @@ int main(){
     count = 1;
     do{
         fatorial = count * aux;
+        //conversao implícita de tipos
         E = 1.0 / fatorial;
         sum += E;
 
